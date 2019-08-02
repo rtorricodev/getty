@@ -4,6 +4,8 @@ figma.ui.onmessage = msg => {
   if (isCreateRectangles(msg)) {
     const nodes = []
 
+    console.log(msg.nameOfElment);
+
     for (let i = 0; i < msg.rows; i++) {
       for (let j = 0; j < msg.columns; j++) {      
         const rect = createRectangle(i,j);
