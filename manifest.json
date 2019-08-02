@@ -1,0 +1,7 @@
+{
+  "name": "Getty",
+  "id": "738962965783715070",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html"
+}
